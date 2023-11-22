@@ -1,4 +1,7 @@
 # RastMobile-Task
+
+Uygulamayı çalıştırmak için terminal üzerinden paketleri yüklemeniz yeterli olacaktır.</br></br>
+
 Yalnız mobil uygulama kodlayacağım için veritabanı olarak SQLite kullandım.</br>
 Uygulama içerisinde State için Bloc ve GetX kullandım. Bloc ile veritabanı ile veri alışverişi sağladım, diğer state işlemleri içinse GetX kullandım.</br></br>
 
