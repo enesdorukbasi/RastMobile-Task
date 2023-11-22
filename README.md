@@ -1,5 +1,5 @@
 # RastMobile-Task
-Yalnız mobil uygulama kodlayacağım için veritabanı olarak SQLite kullandım.
+Yalnız mobil uygulama kodlayacağım için veritabanı olarak SQLite kullandım.</br>
 Uygulama içerisinde State için Bloc ve GetX kullandım. Bloc ile veritabanı ile veri alışverişi sağladım, diğer state işlemleri içinse GetX kullandım.
 
 Task ile ilgili sormak istediğiniz ve ya düzeltmemi istediğiniz bir kısım olursa lütfen benimle iletişime geçin.
