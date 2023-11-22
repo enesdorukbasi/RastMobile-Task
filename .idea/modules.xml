@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/rastmobile_task_enes_dorukbasi.iml" filepath="$PROJECT_DIR$/rastmobile_task_enes_dorukbasi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/rastmobile_task_enes_dorukbasi_android.iml" filepath="$PROJECT_DIR$/android/rastmobile_task_enes_dorukbasi_android.iml" />
+    </modules>
+  </component>
+</project>
