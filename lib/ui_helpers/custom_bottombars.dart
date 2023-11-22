@@ -1,5 +1,4 @@
 // ignore_for_file: deprecated_member_use
-
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_web_browser/flutter_web_browser.dart';
@@ -8,6 +7,7 @@ import 'package:rastmobile_task_enes_dorukbasi/utils/enums/route_enums.dart';
 import 'package:rastmobile_task_enes_dorukbasi/utils/extensions/context_extensions.dart';
 import 'package:rastmobile_task_enes_dorukbasi/utils/extensions/string_extensions.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
+import 'dart:io' show Platform;
 
 class CustomBottombars {
   bottombar({required BuildContext context}) {
@@ -38,11 +38,13 @@ class CustomBottombars {
             ),
             InkWell(
               onTap: () => FlutterWebBrowser.openWebPage(
-                url: "https://getwordninja.com/getwordgame.php",
+                url: Platform.isIOS
+                    ? "https://apps.apple.com/us/app/word-ninja-social-word-game/id1571204627"
+                    : "https://getwordninja.com/getwordgame.php",
                 customTabsOptions: const CustomTabsOptions(
                   colorScheme: CustomTabsColorScheme.dark,
                   toolbarColor: Colors.deepPurple,
-                  secondaryToolbarColor: Colors.green,
+                  secondaryToolbarColor: Colors.white,
                   shareState: CustomTabsShareState.on,
                   instantAppsEnabled: true,
                   showTitle: true,
@@ -50,8 +52,8 @@ class CustomBottombars {
                 ),
                 safariVCOptions: const SafariViewControllerOptions(
                   barCollapsingEnabled: true,
-                  preferredBarTintColor: Colors.green,
-                  preferredControlTintColor: Colors.amber,
+                  preferredBarTintColor: Colors.deepPurple,
+                  preferredControlTintColor: Colors.white,
                   dismissButtonStyle:
                       SafariViewControllerDismissButtonStyle.close,
                   modalPresentationCapturesStatusBarAppearance: true,
